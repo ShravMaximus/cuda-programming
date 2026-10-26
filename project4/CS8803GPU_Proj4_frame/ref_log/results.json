@@ -1,0 +1,62 @@
+{
+    "CC": {
+        "gemm_float": {
+            "NUM_CYCLES": 109220.0,
+            "NUM_INSTRS_RETIRED": 485376.0,
+            "NUM_STALL_CYCLES": 362254.0,
+            "NUM_MEM_REQUESTS": 9503.0,
+            "NUM_MEM_RESPONSES": 9503.0,
+            "AVG_RESPONSE_LATENCY": 185.0,
+            "NUM_TTIMEDOUT_REQUESTS": 0.0,
+            "INSTR_PER_CYCLE": 4.444021,
+            "CACHE_NUM_ACCESSES": 54234.0,
+            "CACHE_NUM_HITS": 10418.0,
+            "CACHE_HIT_RATE_PERC": 19.21,
+            "MISSES_PER_1000_INSTR": 90.27
+        },
+        "gemm_half": {
+            "NUM_CYCLES": 68512.0,
+            "NUM_INSTRS_RETIRED": 254208.0,
+            "NUM_STALL_CYCLES": 277680.0,
+            "NUM_MEM_REQUESTS": 6445.0,
+            "NUM_MEM_RESPONSES": 6445.0,
+            "AVG_RESPONSE_LATENCY": 179.0,
+            "NUM_TTIMEDOUT_REQUESTS": 0.0,
+            "INSTR_PER_CYCLE": 3.710416,
+            "CACHE_NUM_ACCESSES": 54824.0,
+            "CACHE_NUM_HITS": 7272.0,
+            "CACHE_HIT_RATE_PERC": 13.26,
+            "MISSES_PER_1000_INSTR": 187.06
+        }
+    },
+    "TC": {
+        "gemm_float": {
+            "NUM_CYCLES": 109220.0,
+            "NUM_INSTRS_RETIRED": 485376.0,
+            "NUM_STALL_CYCLES": 362254.0,
+            "NUM_MEM_REQUESTS": 9503.0,
+            "NUM_MEM_RESPONSES": 9503.0,
+            "AVG_RESPONSE_LATENCY": 185.0,
+            "NUM_TTIMEDOUT_REQUESTS": 0.0,
+            "INSTR_PER_CYCLE": 4.444021,
+            "CACHE_NUM_ACCESSES": 54234.0,
+            "CACHE_NUM_HITS": 10418.0,
+            "CACHE_HIT_RATE_PERC": 19.21,
+            "MISSES_PER_1000_INSTR": 90.27
+        },
+        "gemm_half": {
+            "NUM_CYCLES": 69344.0,
+            "NUM_INSTRS_RETIRED": 254208.0,
+            "NUM_STALL_CYCLES": 283688.0,
+            "NUM_MEM_REQUESTS": 6434.0,
+            "NUM_MEM_RESPONSES": 6434.0,
+            "AVG_RESPONSE_LATENCY": 179.0,
+            "NUM_TTIMEDOUT_REQUESTS": 0.0,
+            "INSTR_PER_CYCLE": 3.665898,
+            "CACHE_NUM_ACCESSES": 54813.0,
+            "CACHE_NUM_HITS": 7256.0,
+            "CACHE_HIT_RATE_PERC": 13.24,
+            "MISSES_PER_1000_INSTR": 187.08
+        }
+    }
+}
